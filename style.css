@@ -123,10 +123,10 @@ Button-box class selector uses Flex Box Design (flex display) to scale the eleme
 .button-box {
     display: flex;
     height: 200px;
-    border: 0px solid #;
-    align-items: center;
-    justify-content: center;
-  }
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Change button colors and other attributes here. */
 .button {
@@ -197,9 +197,8 @@ Use CSS box model to style image content. Adjust frame/filter class selector pro
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    filter: grayscale(%);
-    filter: blur(px);
-    filter: hue-rotate(deg);
+  /* Example filter usage, adjust as needed */
+  filter: grayscale(50%) blur(2px) hue-rotate(20deg);
 }
 
 
@@ -218,10 +217,9 @@ Polaroid class selector and container. Adjust Polaroid width here. */
 
 .polaroid img {
     width: 100%;  /* Keep 100% */
-    filter: grayscale(%);
-    filter: blur(px);
-    filter: hue-rotate(deg);
-  }
+  /* Example filter usage, adjust as needed */
+  filter: grayscale(30%) blur(1px) hue-rotate(10deg);
+}
 
 .polaroid-caption {
     text-align: center;
